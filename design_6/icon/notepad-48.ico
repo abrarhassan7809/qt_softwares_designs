@@ -1,0 +1,16 @@
+<RCC>
+  <qresource prefix="icon">
+    <file>arrow-31-48.ico</file>
+    <file>arrow-96-48.ico</file>
+    <file>group-48.ico</file>
+    <file>home-3-48.ico</file>
+    <file>login-48.ico</file>
+    <file>notepad-48.ico</file>
+    <file>redeem-32.ico</file>
+    <file>redeem-48.ico</file>
+    <file>redeem-64.ico</file>
+    <file>search-3-48.ico</file>
+    <file>x-mark-4-32.ico</file>
+    <file>x-mark-4-48.ico</file>
+  </qresource>
+</RCC>

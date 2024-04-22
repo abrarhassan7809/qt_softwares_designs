@@ -1,0 +1,91 @@
+#MainWindow {
+    background-color: #2f313d;
+}
+#change_btn {
+    padding: 5px;
+    border: none;
+    width: 30px;
+    height: 30px;
+}
+#widget, #widget_2, #widget_4 {
+    background-color: #2f313d;
+}
+
+#label_2, #label_3, #label_4 {
+    color: #fff;
+}
+
+#icon_only_widget {
+    background-color: #191b24;
+    width: 50px;
+}
+#icon_only_widget QPushButton, QLabel{
+    border: none;
+    height: 50px;
+}
+#icon_only_widget home_btn_1, dashboard_btn_1, order_btn_1{
+    background-color: #788596;
+}
+#icon_only_widget QPushButton:hover{
+    background-color: #2f313d;
+}
+#icon_only_widget QPushButton:checked{
+    color: #383c4a;
+}
+#logo_label_1 {
+    padding: 5px;
+}
+
+#full_menu_widget {
+    background-color: #191b24;
+}
+#full_menu_widget QPushButton {
+    border: none;
+    border-radius: 3px;
+    text-align: left;
+    padding: 8px 0 8px 15px;
+    color: #fff;
+}
+#full_menu_widget QPushButton:hover {
+    background-color: #2f313d;
+}
+#full_menu_widget QPushButton:checked {
+    color: #383c4a;
+}
+
+#logo_label_2 {
+    padding: 5px;
+    color: #fff;
+}
+#logo_label_3 {
+    padding-right: 10px;
+    color: #fff;
+}
+
+#search_btn {
+    border: none;
+}
+#search_input {
+    border: none;
+    padding: 5px 10px;
+    background-color: #686c78;
+}
+#search_input:focus {
+    background-color: #686c78;
+}
+
+#tableWidget, #tableWidget_2, #tableWidget_3 {
+    background-color: #f9fafd;
+}
+
+icon3 = QtGui.QIcon()
+icon3.addPixmap(QtGui.QPixmap(":/icon/icon/home2.ico"), QtGui.QIcon.Normal, QtGui.QIcon.Off)
+
+icon4 = QtGui.QIcon()
+icon4.addPixmap(QtGui.QPixmap(":/icon/icon/transaction-14830.png"), QtGui.QIcon.Normal, QtGui.QIcon.Off)
+
+icon5 = QtGui.QIcon()
+icon5.addPixmap(QtGui.QPixmap(":/icon/icon/packaging-product-14475.png"), QtGui.QIcon.Normal, QtGui.QIcon.Off)
+
+icon6 = QtGui.QIcon()
+icon6.addPixmap(QtGui.QPixmap(":/icon/icon/history_icon.ico"), QtGui.QIcon.Normal, QtGui.QIcon.Off)
